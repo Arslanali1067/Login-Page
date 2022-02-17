@@ -225,3 +225,16 @@ a:hover {
     max-width: 470px;
     margin-top: 32px; 
 }
+
+.background-sign-in {
+    background-image: url("../assets/background-sign-in.png");
+    background-size: 1065px 932px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.background-sign-up {
+    background-image: url("../assets/background-sign-up.png");
+    background-size: 1065px 932px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
