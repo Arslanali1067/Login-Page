@@ -5,55 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign In</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <!-- Main Section -->
-    <section>
+    <section class="main-section">
       <!-- Container -->
-      <div>
+      <div class="container background-sign-in">
         <!-- Header -->
-        <header>
+        <header class="header text-center">
           <img src="./assets/Logo.svg" alt="Logo" />
         </header>
 
         <!-- Form Section -->
-        <div>
+        <div class="form-section">
           <!-- Top info section -->
-          <div>
-            <h6>SIGN IN</h6>
-            <h1>Welcome back!</h1>
-            <p>Sign in to access your account.</p>
+          <div class="top-info text-center">
+            <h6 class="tag-line">SIGN IN</h6>
+            <h1 class="heading-one">Welcome back!</h1>
+            <p class="body-one">Sign in to access your account.</p>
           </div>
 
           <hr />
           <!-- Main Form -->
-          <form>
-            <div>
+          <form class="form">
+            <div class="form-control">
               <!-- Email -->
-              <label for="email">Email address</label>
-              <input type="email" id="email" />
+              <label class="form-label" for="email">Email address</label>
+              <input class="form-input" type="email" id="email" />
             </div>
 
-            <div>
+            <div class="form-control">
               <!-- Password -->
-              <label for="password">Password</label>
-              <input type="password" id="password" />
+              <label class="form-label" for="password">Password</label>
+              <input class="form-input" type="password" id="password" />
             </div>
 
-            <button>SIGN IN</button>
+            <button class="btn btn-primary">SIGN IN</button>
 
-            <p><a href="">Forgot your password?</a></p>
-          </form>
-
-          <!-- Account Selection -->
-          <div>
-            <p>
-              Don't have an account yet? <a href="./sign-up.html">Create One</a>
+            <p class="body-two text-center">
+              <a href="">Forgot your password?</a>
             </p>
-          </div>
-          <div>
-            <img src="./assets/sign-in.png" alt="Sign up" />
-          </div>
+          </form>
+        </div>
+
+        <!-- Account Selection -->
+        <div class="account-select">
+          <p class="body-two text-light text-center">
+            Don't have an account yet? <a href="./sign-up.html">Create One</a>
+          </p>
+        </div>
+        <div class="text-center">
+          <img
+            class="illustration-sign-in"
+            src="./assets/sign-in.png"
+            alt="Sign up"
+          />
         </div>
       </div>
     </section>
